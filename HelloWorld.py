@@ -4,8 +4,16 @@ def Add(x, y):
 z = Add(2, 3)
 print(z)
 
+#Rama master
 def dividir(x, y):
     return x / y
 
-a = dividir(6, 3)
+b = dividir(6, 3)
+print(b)
+
+#Rama HotFix
+def Multiplicacion(x, y):
+    return x * y
+
+a = Multiplicacion(3, 9)
 print(a)
